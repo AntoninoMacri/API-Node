@@ -1,0 +1,42 @@
+# Dipendenze
+node_modules/
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build / Output
+dist/
+build/
+coverage/
+
+# Optional: se usi TypeScript
+*.tsbuildinfo
+
+# Optional: PM2 logs (se usi PM2 per il deployment)
+pids/
+logs/
+*.log
+
+# Optional: se usi SQLite come DB locale
+*.sqlite
+*.sqlite3
